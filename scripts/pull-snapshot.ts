@@ -312,7 +312,10 @@ async function main() {
   console.log(`${snapshot.models.length} verified models, ${new Date().toISOString()}`);
 }
 
-main().catch((err) => {
-  console.error("Fatal:", err);
-  process.exit(1);
-});
+main().then(
+  () => process.exit(0),
+  (err) => {
+    console.error("Fatal:", err);
+    process.exit(1);
+  },
+);

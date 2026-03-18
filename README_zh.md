@@ -220,7 +220,7 @@ EcoClaw/
 ├── src/
 │   ├── index.ts                 # 插件入口、注册 provider 和 slash commands
 │   ├── config.ts                # 环境变量和配置常量
-│   ├── models.ts                # 模型定义（ecoclaw/best|auto|eco）
+│   ├── models.ts                # 模型定义（ecoclaw/best|balance|eco）
 │   ├── proxy.ts                 # 本地 HTTP 代理（拦截请求、选择模型、转发 OpenRouter）
 │   └── router/
 │       ├── classifier.ts        # Embedding 最近邻分类器（23 个任务类别）
@@ -230,9 +230,8 @@ EcoClaw/
 │       ├── profiles.ts          # 省钱策略配置（best/balanced/eco）
 │       └── index.ts             # 模块统一导出
 ├── src/data/
-│   ├── cache.ts                 # Benchmark 数据缓存（6 小时 TTL）
-│   ├── fetcher.ts               # PinchBench API 数据拉取
-│   └── snapshot.json            # 离线 benchmark 快照
+│   ├── cache.ts                 # Benchmark 数据加载器（基于 snapshot）
+│   └── snapshot.json            # 预验证的 benchmark 快照
 ├── scripts/
 │   ├── build-embeddings.ts      # 从任务描述生成 embedding 向量
 │   ├── pull-snapshot.ts         # 拉取 PinchBench 数据快照

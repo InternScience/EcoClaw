@@ -51,8 +51,8 @@ type EcoClawModel = {
 
 const ECOCLAW_MODELS: EcoClawModel[] = [
   {
-    id: "auto",
-    name: "Auto (Benchmark Router - Balanced)",
+    id: "balance",
+    name: "Balance (Benchmark Router - Balanced)",
     inputPrice: 0,
     outputPrice: 0,
     contextWindow: 1_000_000,
@@ -97,7 +97,7 @@ function toOpenClawModel(m: EcoClawModel): ModelDefinitionConfig {
 export const OPENCLAW_MODELS: ModelDefinitionConfig[] = ECOCLAW_MODELS.map(toOpenClawModel);
 
 // Check if a model is a virtual routing profile
-const ROUTING_PROFILES = new Set(["auto", "best", "eco"]);
+const ROUTING_PROFILES = new Set(["balance", "best", "eco"]);
 export function isRoutingProfile(modelId: string): boolean {
   const stripped = modelId.startsWith("ecoclaw/")
     ? modelId.slice("ecoclaw/".length)
@@ -112,7 +112,7 @@ export function getProfileFromModel(modelId: string): "best" | "balanced" | "eco
     : modelId;
   if (stripped === "best") return "best";
   if (stripped === "eco") return "eco";
-  return "balanced"; // "auto" -> balanced
+  return "balanced"; // "balance" -> balanced
 }
 
 export function buildProviderModels(baseUrl: string): ModelProviderConfig {

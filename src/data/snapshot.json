@@ -1,14 +1,322 @@
 {
-  "fetchedAt": "2026-03-10T09:32:47.249Z",
+  "fetchedAt": "2026-03-18T04:20:12.726Z",
   "minScore": 0,
   "models": [
     {
+      "model": "google/gemini-3-flash-preview",
+      "openrouterId": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "overallScore": 97.77777777777779,
+      "speed": 666.7271260714286,
+      "cost": 0.38333042857142857,
+      "submissionId": "3246698e-3021-46ea-ad1a-03bc29e73381",
+      "taskScores": [
+        {
+          "taskId": "task_00_sanity",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_01_calendar",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_02_stock",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_04_weather",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_08_memory",
+          "score": 80,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_09_files",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_11_clawdhub",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_12_skill_search",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_21_openclaw_comprehension",
+          "score": 100,
+          "maxScore": 1
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-sonnet-4.5",
+      "openrouterId": "anthropic/claude-sonnet-4.6",
+      "provider": "openrouter",
+      "overallScore": 83.10680720245935,
+      "speed": 975.6157876666666,
+      "cost": 2.710085916666667,
+      "submissionId": "f66363b9-7676-41a7-af38-689f034288be",
+      "taskScores": [
+        {
+          "taskId": "task_00_sanity",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_01_calendar",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_02_stock",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_03_blog",
+          "score": 99,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_04_weather",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_05_summary",
+          "score": 93,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_06_events",
+          "score": 83,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_07_email",
+          "score": 95,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_08_memory",
+          "score": 80,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_09_files",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_10_workflow",
+          "score": 41.66666666666667,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_11_clawdhub",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_12_skill_search",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_13_image_gen",
+          "score": 0,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_14_humanizer",
+          "score": 90,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_15_daily_summary",
+          "score": 85,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_email_triage",
+          "score": 89.14545454545456,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_17_email_search",
+          "score": 98.1,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_market_research",
+          "score": 92.5,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_18_spreadsheet_summary",
+          "score": 99.6,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_20_eli5_pdf_summary",
+          "score": 71,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_21_openclaw_comprehension",
+          "score": 94.44444444444444,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_22_second_brain",
+          "score": 0,
+          "maxScore": 1
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-5.4",
+      "openrouterId": "openai/gpt-5.4",
+      "provider": "openrouter",
+      "overallScore": 86.37193675889328,
+      "speed": 1194.1473292307692,
+      "cost": 1.5471250769230769,
+      "submissionId": "08a95814-3fed-404c-bceb-49be65539e50",
+      "taskScores": [
+        {
+          "taskId": "task_00_sanity",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_01_calendar",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_02_stock",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_03_blog",
+          "score": 91,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_04_weather",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_05_summary",
+          "score": 96,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_06_events",
+          "score": 78,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_07_email",
+          "score": 97,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_08_memory",
+          "score": 70,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_09_files",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_10_workflow",
+          "score": 75.16666666666667,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_11_clawdhub",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_12_skill_search",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_13_image_gen",
+          "score": 33.33333333333333,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_14_humanizer",
+          "score": 96,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_15_daily_summary",
+          "score": 94,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_email_triage",
+          "score": 88.85454545454546,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_17_email_search",
+          "score": 97.6,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_market_research",
+          "score": 96.50000000000001,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_18_spreadsheet_summary",
+          "score": 91.60000000000001,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_20_eli5_pdf_summary",
+          "score": 74,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_21_openclaw_comprehension",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_22_second_brain",
+          "score": 7.5,
+          "maxScore": 1
+        }
+      ]
+    },
+    {
       "model": "anthropic/claude-opus-4.6",
       "openrouterId": "anthropic/claude-opus-4.6",
-      "provider": "anthropic",
+      "provider": "openrouter",
       "overallScore": 86.3094422485727,
-      "speed": 1209.10644525,
-      "cost": 2.9823250000000003,
+      "speed": 1303.7025265833333,
+      "cost": 3.6695865,
       "submissionId": "cd488ed7-aee8-4fbb-87df-0aaae1aa6489",
       "taskScores": [
         {
@@ -131,10 +439,10 @@
     {
       "model": "anthropic/claude-opus-4.5",
       "openrouterId": "anthropic/claude-opus-4.5",
-      "provider": "anthropic",
+      "provider": "openrouter",
       "overallScore": 85.35423803249888,
-      "speed": 903.223594,
-      "cost": 3.5959327500000002,
+      "speed": 909.7893182500001,
+      "cost": 3.5436049166666668,
       "submissionId": "9ca0ce3b-fff5-423a-bde3-6fbf8a72d67d",
       "taskScores": [
         {
@@ -255,13 +563,13 @@
       ]
     },
     {
-      "model": "openai/gpt-5.4",
-      "openrouterId": "openai/gpt-5.4",
-      "provider": "openai",
-      "overallScore": 84.19130434782608,
-      "speed": 1205.7293918,
-      "cost": 1.6437753999999998,
-      "submissionId": "397a19c5-e210-466c-accd-250d3081ba14",
+      "model": "z-ai/glm-5",
+      "openrouterId": "z-ai/glm-5",
+      "provider": "openrouter",
+      "overallScore": 85.25051132442435,
+      "speed": 1745.7012446,
+      "cost": 0.7108531,
+      "submissionId": "4aae7216-973c-4ab8-9463-22c97ecbdcd5",
       "taskScores": [
         {
           "taskId": "task_00_sanity",
@@ -280,7 +588,7 @@
         },
         {
           "taskId": "task_03_blog",
-          "score": 55.00000000000001,
+          "score": 100,
           "maxScore": 1
         },
         {
@@ -295,12 +603,12 @@
         },
         {
           "taskId": "task_06_events",
-          "score": 85,
+          "score": 95,
           "maxScore": 1
         },
         {
           "taskId": "task_07_email",
-          "score": 72,
+          "score": 95,
           "maxScore": 1
         },
         {
@@ -310,12 +618,12 @@
         },
         {
           "taskId": "task_09_files",
-          "score": 100,
+          "score": 85.71428571428571,
           "maxScore": 1
         },
         {
           "taskId": "task_10_workflow",
-          "score": 85.16666666666667,
+          "score": 78.66666666666666,
           "maxScore": 1
         },
         {
@@ -330,37 +638,37 @@
         },
         {
           "taskId": "task_13_image_gen",
-          "score": 27.833333333333332,
+          "score": 0,
           "maxScore": 1
         },
         {
           "taskId": "task_14_humanizer",
-          "score": 85,
+          "score": 94,
           "maxScore": 1
         },
         {
           "taskId": "task_15_daily_summary",
-          "score": 97.5,
+          "score": 94.5,
           "maxScore": 1
         },
         {
           "taskId": "task_16_email_triage",
-          "score": 92.80000000000001,
+          "score": 88.83636363636364,
           "maxScore": 1
         },
         {
           "taskId": "task_17_email_search",
-          "score": 99.4,
+          "score": 98,
           "maxScore": 1
         },
         {
           "taskId": "task_16_market_research",
-          "score": 95.5,
+          "score": 95,
           "maxScore": 1
         },
         {
           "taskId": "task_18_spreadsheet_summary",
-          "score": 99.2,
+          "score": 99.6,
           "maxScore": 1
         },
         {
@@ -370,7 +678,7 @@
         },
         {
           "taskId": "task_21_openclaw_comprehension",
-          "score": 100,
+          "score": 94.44444444444444,
           "maxScore": 1
         },
         {
@@ -381,13 +689,391 @@
       ]
     },
     {
-      "model": "anthropic/claude-sonnet-4",
-      "openrouterId": "anthropic/claude-sonnet-4.6",
-      "provider": "anthropic",
-      "overallScore": 80.47129995608256,
-      "speed": 932.288561,
-      "cost": 2.870812,
-      "submissionId": "454139b1-89e9-4e20-b006-dc9843369758",
+      "model": "moonshotai/kimi-k2.5",
+      "openrouterId": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "overallScore": 84.80466152205281,
+      "speed": 1300.9223441,
+      "cost": 0.3602208,
+      "submissionId": "ce9bbcbd-f78b-4655-af1f-c97781320ce6",
+      "taskScores": [
+        {
+          "taskId": "task_00_sanity",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_01_calendar",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_02_stock",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_03_blog",
+          "score": 99,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_04_weather",
+          "score": 85.71428571428571,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_05_summary",
+          "score": 92,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_06_events",
+          "score": 91,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_07_email",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_08_memory",
+          "score": 70,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_09_files",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_10_workflow",
+          "score": 69.16666666666667,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_11_clawdhub",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_12_skill_search",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_13_image_gen",
+          "score": 0,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_14_humanizer",
+          "score": 78,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_15_daily_summary",
+          "score": 97,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_email_triage",
+          "score": 94.58181818181818,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_17_email_search",
+          "score": 99.4,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_market_research",
+          "score": 98.5,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_18_spreadsheet_summary",
+          "score": 99.2,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_20_eli5_pdf_summary",
+          "score": 82.5,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_21_openclaw_comprehension",
+          "score": 94.44444444444444,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_22_second_brain",
+          "score": 0,
+          "maxScore": 1
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-122b-a10b",
+      "openrouterId": "qwen/qwen3.5-122b-a10b",
+      "provider": "openrouter",
+      "overallScore": 84.45621431708388,
+      "speed": 859.8932657272727,
+      "cost": 0.580377,
+      "submissionId": "11368a5a-a1a0-418b-99a4-b3f9bd9c9900",
+      "taskScores": [
+        {
+          "taskId": "task_00_sanity",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_01_calendar",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_02_stock",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_03_blog",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_04_weather",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_05_summary",
+          "score": 89,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_06_events",
+          "score": 78,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_07_email",
+          "score": 95,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_08_memory",
+          "score": 80,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_09_files",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_10_workflow",
+          "score": 88.16666666666667,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_11_clawdhub",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_12_skill_search",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_13_image_gen",
+          "score": 0,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_14_humanizer",
+          "score": 90,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_15_daily_summary",
+          "score": 96,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_email_triage",
+          "score": 97.58181818181818,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_17_email_search",
+          "score": 98.8,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_market_research",
+          "score": 94.5,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_18_spreadsheet_summary",
+          "score": 60,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_20_eli5_pdf_summary",
+          "score": 81,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_21_openclaw_comprehension",
+          "score": 94.44444444444444,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_22_second_brain",
+          "score": 0,
+          "maxScore": 1
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-plus-02-15",
+      "openrouterId": "qwen/qwen3.5-plus-02-15",
+      "provider": "openrouter",
+      "overallScore": 84.0834870443566,
+      "speed": 1067.44719225,
+      "cost": 0.614471125,
+      "submissionId": "2e299061-4a80-434a-92a8-e65e5d03453e",
+      "taskScores": [
+        {
+          "taskId": "task_00_sanity",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_01_calendar",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_02_stock",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_03_blog",
+          "score": 95,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_04_weather",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_05_summary",
+          "score": 88,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_06_events",
+          "score": 93,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_07_email",
+          "score": 98,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_08_memory",
+          "score": 80,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_09_files",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_10_workflow",
+          "score": 88.66666666666667,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_11_clawdhub",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_12_skill_search",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_13_image_gen",
+          "score": 0,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_14_humanizer",
+          "score": 90,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_15_daily_summary",
+          "score": 88,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_email_triage",
+          "score": 88.5090909090909,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_17_email_search",
+          "score": 94.80000000000001,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_market_research",
+          "score": 92.5,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_18_spreadsheet_summary",
+          "score": 60,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_20_eli5_pdf_summary",
+          "score": 83,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_21_openclaw_comprehension",
+          "score": 94.44444444444444,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_22_second_brain",
+          "score": 0,
+          "maxScore": 1
+        }
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-397b-a17b",
+      "openrouterId": "qwen/qwen3.5-397b-a17b",
+      "provider": "openrouter",
+      "overallScore": 83.56836376184201,
+      "speed": 1007.116216,
+      "cost": 0.9114721666666666,
+      "submissionId": "8d39672a-a3b1-46ab-8f19-82d1ec40a6cc",
       "taskScores": [
         {
           "taskId": "task_00_sanity",
@@ -411,22 +1097,22 @@
         },
         {
           "taskId": "task_04_weather",
-          "score": 100,
+          "score": 85.71428571428571,
           "maxScore": 1
         },
         {
           "taskId": "task_05_summary",
-          "score": 88,
+          "score": 92,
           "maxScore": 1
         },
         {
           "taskId": "task_06_events",
-          "score": 72,
+          "score": 85,
           "maxScore": 1
         },
         {
           "taskId": "task_07_email",
-          "score": 96,
+          "score": 95,
           "maxScore": 1
         },
         {
@@ -441,7 +1127,7 @@
         },
         {
           "taskId": "task_10_workflow",
-          "score": 91.66666666666667,
+          "score": 84.16666666666667,
           "maxScore": 1
         },
         {
@@ -461,27 +1147,27 @@
         },
         {
           "taskId": "task_14_humanizer",
-          "score": 81.25,
+          "score": 93,
           "maxScore": 1
         },
         {
           "taskId": "task_15_daily_summary",
-          "score": 85,
+          "score": 88,
           "maxScore": 1
         },
         {
           "taskId": "task_16_email_triage",
-          "score": 87.34545454545454,
+          "score": 81.56363636363638,
           "maxScore": 1
         },
         {
           "taskId": "task_17_email_search",
-          "score": 97.8,
+          "score": 95.6,
           "maxScore": 1
         },
         {
           "taskId": "task_16_market_research",
-          "score": 95,
+          "score": 93.25,
           "maxScore": 1
         },
         {
@@ -491,7 +1177,7 @@
         },
         {
           "taskId": "task_20_eli5_pdf_summary",
-          "score": 0,
+          "score": 72,
           "maxScore": 1
         },
         {
@@ -507,13 +1193,13 @@
       ]
     },
     {
-      "model": "moonshotai/kimi-k2.5",
-      "openrouterId": "moonshotai/kimi-k2.5",
-      "provider": "moonshotai",
-      "overallScore": 82.9834870443566,
-      "speed": 1156.1751615,
-      "cost": 0.35210874999999997,
-      "submissionId": "2fb1bdb6-1b16-467d-a989-248dbf058871",
+      "model": "google/gemini-3.1-pro-preview",
+      "openrouterId": "google/gemini-3.1-pro-preview",
+      "provider": "openrouter",
+      "overallScore": 83.14352217830478,
+      "speed": 1194.8083013333335,
+      "cost": 1.3586483333333335,
+      "submissionId": "ca40a0bb-9489-442d-a393-3c5480941301",
       "taskScores": [
         {
           "taskId": "task_00_sanity",
@@ -542,17 +1228,17 @@
         },
         {
           "taskId": "task_05_summary",
-          "score": 93,
+          "score": 95,
           "maxScore": 1
         },
         {
           "taskId": "task_06_events",
-          "score": 85,
+          "score": 98,
           "maxScore": 1
         },
         {
           "taskId": "task_07_email",
-          "score": 100,
+          "score": 97,
           "maxScore": 1
         },
         {
@@ -567,7 +1253,7 @@
         },
         {
           "taskId": "task_10_workflow",
-          "score": 77.66666666666666,
+          "score": 68.66666666666667,
           "maxScore": 1
         },
         {
@@ -582,42 +1268,168 @@
         },
         {
           "taskId": "task_13_image_gen",
-          "score": 40.166666666666664,
+          "score": 50.66666666666667,
           "maxScore": 1
         },
         {
           "taskId": "task_14_humanizer",
-          "score": 88,
+          "score": 72,
           "maxScore": 1
         },
         {
           "taskId": "task_15_daily_summary",
-          "score": 85,
+          "score": 78,
           "maxScore": 1
         },
         {
           "taskId": "task_16_email_triage",
-          "score": 90.0090909090909,
+          "score": 89.74545454545455,
           "maxScore": 1
         },
         {
           "taskId": "task_17_email_search",
-          "score": 94.39999999999999,
+          "score": 98.8,
           "maxScore": 1
         },
         {
           "taskId": "task_16_market_research",
-          "score": 50,
+          "score": 95,
           "maxScore": 1
         },
         {
           "taskId": "task_18_spreadsheet_summary",
-          "score": 58.93333333333332,
+          "score": 97.2,
           "maxScore": 1
         },
         {
           "taskId": "task_20_eli5_pdf_summary",
+          "score": 86,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_21_openclaw_comprehension",
+          "score": 22.22222222222222,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_22_second_brain",
+          "score": 0,
+          "maxScore": 1
+        }
+      ]
+    },
+    {
+      "model": "z-ai/glm-4.5-air",
+      "openrouterId": "z-ai/glm-4.5-air",
+      "provider": "openrouter",
+      "overallScore": 82.74751866490998,
+      "speed": 1529.0509946,
+      "cost": 0.14944169999999998,
+      "submissionId": "82f7c224-632a-481c-b2e4-2071171d3873",
+      "taskScores": [
+        {
+          "taskId": "task_00_sanity",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_01_calendar",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_02_stock",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_03_blog",
           "score": 88,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_04_weather",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_05_summary",
+          "score": 87,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_06_events",
+          "score": 30,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_07_email",
+          "score": 96,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_08_memory",
+          "score": 70,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_09_files",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_10_workflow",
+          "score": 88.16666666666667,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_11_clawdhub",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_12_skill_search",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_13_image_gen",
+          "score": 0,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_14_humanizer",
+          "score": 96,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_15_daily_summary",
+          "score": 97,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_email_triage",
+          "score": 90.38181818181819,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_17_email_search",
+          "score": 95.80000000000001,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_market_research",
+          "score": 92,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_18_spreadsheet_summary",
+          "score": 98.4,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_20_eli5_pdf_summary",
+          "score": 80,
           "maxScore": 1
         },
         {
@@ -633,13 +1445,13 @@
       ]
     },
     {
-      "model": "z-ai/glm-5",
-      "openrouterId": "z-ai/glm-5",
-      "provider": "z-ai",
-      "overallScore": 82.76998870694521,
-      "speed": 1662.9381114999999,
-      "cost": 0.6961645000000001,
-      "submissionId": "8bdb7fd9-625d-48ee-8d3f-720f12d60de7",
+      "model": "stepfun/step-3.5-flash",
+      "openrouterId": "stepfun/step-3.5-flash",
+      "provider": "openrouter",
+      "overallScore": 82.64202898550728,
+      "speed": 1249.4088041818181,
+      "cost": 0.3914737272727273,
+      "submissionId": "515e0b38-c4fd-4ce4-bfd1-fb3287ef530c",
       "taskScores": [
         {
           "taskId": "task_00_sanity",
@@ -658,7 +1470,7 @@
         },
         {
           "taskId": "task_03_blog",
-          "score": 96,
+          "score": 78,
           "maxScore": 1
         },
         {
@@ -668,32 +1480,32 @@
         },
         {
           "taskId": "task_05_summary",
-          "score": 93,
+          "score": 89,
           "maxScore": 1
         },
         {
           "taskId": "task_06_events",
-          "score": 100,
+          "score": 78,
           "maxScore": 1
         },
         {
           "taskId": "task_07_email",
-          "score": 96,
+          "score": 98,
           "maxScore": 1
         },
         {
           "taskId": "task_08_memory",
-          "score": 70,
+          "score": 80,
           "maxScore": 1
         },
         {
           "taskId": "task_09_files",
-          "score": 85.71428571428571,
+          "score": 100,
           "maxScore": 1
         },
         {
           "taskId": "task_10_workflow",
-          "score": 85.66666666666667,
+          "score": 88.16666666666667,
           "maxScore": 1
         },
         {
@@ -708,42 +1520,42 @@
         },
         {
           "taskId": "task_13_image_gen",
-          "score": 3.75,
+          "score": 45.666666666666664,
           "maxScore": 1
         },
         {
           "taskId": "task_14_humanizer",
-          "score": 85,
+          "score": 86,
           "maxScore": 1
         },
         {
           "taskId": "task_15_daily_summary",
-          "score": 85,
+          "score": 27.499999999999996,
           "maxScore": 1
         },
         {
           "taskId": "task_16_email_triage",
-          "score": 92.44545454545454,
+          "score": 92.2,
           "maxScore": 1
         },
         {
           "taskId": "task_17_email_search",
-          "score": 96.8,
+          "score": 91.2,
           "maxScore": 1
         },
         {
           "taskId": "task_16_market_research",
-          "score": 50,
+          "score": 97.5,
           "maxScore": 1
         },
         {
           "taskId": "task_18_spreadsheet_summary",
-          "score": 100,
+          "score": 97.2,
           "maxScore": 1
         },
         {
           "taskId": "task_20_eli5_pdf_summary",
-          "score": 81,
+          "score": 69,
           "maxScore": 1
         },
         {
@@ -761,10 +1573,10 @@
     {
       "model": "minimax/minimax-m2.1",
       "openrouterId": "minimax/minimax-m2.1",
-      "provider": "minimax",
+      "provider": "openrouter",
       "overallScore": 82.17637241985068,
-      "speed": 1280.902102,
-      "cost": 0.17358099999999999,
+      "speed": 1199.1089142,
+      "cost": 0.16210580000000002,
       "submissionId": "630c7650-ee65-48f1-aec8-e799926967df",
       "taskScores": [
         {
@@ -885,265 +1697,13 @@
       ]
     },
     {
-      "model": "stepfun/step-3.5-flash",
-      "openrouterId": "stepfun/step-3.5-flash",
-      "provider": "stepfun",
-      "overallScore": 81.17492314448836,
-      "speed": 974.2155192499999,
-      "cost": 0.35823075,
-      "submissionId": "92345a7c-0fd2-4496-99ec-bfe23f1aba29",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 86,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 88,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 96,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 96,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 41.66666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 22.666666666666664,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 67.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 95,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 90.34545454545454,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 92.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 50,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 97.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 70,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 94.44444444444444,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "google/gemini-3.1-pro-preview",
-      "openrouterId": "google/gemini-3.1-pro-preview",
-      "provider": "google",
-      "overallScore": 81.06526130873957,
-      "speed": 1032.819808,
-      "cost": 1.410674,
-      "submissionId": "d9af2c38-1456-4ad0-9432-83c2709de05b",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 95,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 92,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 98,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 94,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 41.66666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 46.666666666666664,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 55.00000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 92,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 85.54545454545455,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 93.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 93,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 97.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 79,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 22.22222222222222,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "qwen/qwen3.5-122b-a10b",
-      "openrouterId": "qwen/qwen3.5-122b-a10b",
-      "provider": "qwen",
-      "overallScore": 80.84896794027227,
-      "speed": 889.219404,
-      "cost": 0.5629970000000001,
-      "submissionId": "e827148e-da81-4c61-9039-6d69fd23f246",
+      "model": "anthropic/claude-haiku-4.5",
+      "openrouterId": "anthropic/claude-haiku-4.5",
+      "provider": "openrouter",
+      "overallScore": 82.04158981115502,
+      "speed": 781.0890701999999,
+      "cost": 0.7132914,
+      "submissionId": "f925ab16-b4ab-4a0a-81b9-02286cf836c2",
       "taskScores": [
         {
           "taskId": "task_00_sanity",
@@ -1162,7 +1722,7 @@
         },
         {
           "taskId": "task_03_blog",
-          "score": 92,
+          "score": 95,
           "maxScore": 1
         },
         {
@@ -1178,6 +1738,132 @@
         {
           "taskId": "task_06_events",
           "score": 85,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_07_email",
+          "score": 95,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_08_memory",
+          "score": 80,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_09_files",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_10_workflow",
+          "score": 79.16666666666667,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_11_clawdhub",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_12_skill_search",
+          "score": 66.66666666666666,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_13_image_gen",
+          "score": 0,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_14_humanizer",
+          "score": 75,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_15_daily_summary",
+          "score": 95,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_email_triage",
+          "score": 87.34545454545454,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_17_email_search",
+          "score": 91,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_16_market_research",
+          "score": 98,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_18_spreadsheet_summary",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_20_eli5_pdf_summary",
+          "score": 73,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_21_openclaw_comprehension",
+          "score": 94.44444444444444,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_22_second_brain",
+          "score": 0,
+          "maxScore": 1
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v3.2",
+      "openrouterId": "deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "overallScore": 81.88906455862977,
+      "speed": 3085.0924217,
+      "cost": 0.27158730000000003,
+      "submissionId": "d3f608c1-c583-4b5b-b729-fe036955d971",
+      "taskScores": [
+        {
+          "taskId": "task_00_sanity",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_01_calendar",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_02_stock",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_03_blog",
+          "score": 96,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_04_weather",
+          "score": 100,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_05_summary",
+          "score": 95,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_06_events",
+          "score": 78,
           "maxScore": 1
         },
         {
@@ -1222,133 +1908,7 @@
         },
         {
           "taskId": "task_15_daily_summary",
-          "score": 90,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 92.78181818181818,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 97.8,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 94,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 79,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 94.44444444444444,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "deepseek/deepseek-v3.2",
-      "openrouterId": "deepseek/deepseek-v3.2",
-      "provider": "deepseek",
-      "overallScore": 80.64993412384716,
-      "speed": 3162.7329513333334,
-      "cost": 0.30026733333333333,
-      "submissionId": "0f256cfc-7754-49cf-854f-d6ca3de992a6",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 88,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 65,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 98.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 70,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 88.16666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 89,
+          "score": 92,
           "maxScore": 1
         },
         {
@@ -1358,763 +1918,7 @@
         },
         {
           "taskId": "task_17_email_search",
-          "score": 95.39999999999999,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 97,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 97.6,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 79,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
           "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 2.5,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "minimax/minimax-m2.5",
-      "openrouterId": "minimax/minimax-m2.5",
-      "provider": "minimax",
-      "overallScore": 80.46401593575506,
-      "speed": 1214.805274,
-      "cost": 0.17676666666666666,
-      "submissionId": "93162235-e217-4f03-8b9a-4218d5f0f301",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 95,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 95,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 99,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 70,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 85.71428571428571,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 82.66666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 3.75,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 94,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 87.36363636363636,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 98.4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 94,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 98,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 94.44444444444444,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "z-ai/glm-4.5-air",
-      "openrouterId": "z-ai/glm-4.5-air",
-      "provider": "z-ai",
-      "overallScore": 79.35859213250517,
-      "speed": 1354.19848725,
-      "cost": 0.13671824999999999,
-      "submissionId": "9fd7066f-57f6-4945-a92b-45835752575c",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 96,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 91,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 92,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 95,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 70,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 85.71428571428571,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 88.16666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 82,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 91.60000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 96,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 92.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 56.266666666666666,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "qwen/qwen3-coder-next",
-      "openrouterId": "qwen/qwen3-coder-next",
-      "provider": "qwen",
-      "overallScore": 79.07594289768203,
-      "speed": 722.923232,
-      "cost": 0.462954,
-      "submissionId": "57571aa4-e90c-41ce-810d-bdc619dfdc19",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 95,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 88,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 45,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 70,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 85.71428571428571,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 84.16666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 16.666666666666664,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 65,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 88,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 34.265734265734274,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 99,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 92,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 99.6,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 73,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "openai/gpt-5-mini",
-      "openrouterId": "openai/gpt-5-mini",
-      "provider": "openai",
-      "overallScore": 78.26867118388856,
-      "speed": 890.1272393333334,
-      "cost": 0.20789566666666667,
-      "submissionId": "fbd26f39-4108-4e80-9cb1-d9f858a52335",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 95,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 90,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 84,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 85.71428571428571,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 72.66666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 25.416666666666664,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 55.00000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 75,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 92.78181818181818,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 96,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 93,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 97.6,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 57.99999999999999,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "mistralai/devstral-2512",
-      "openrouterId": "mistralai/devstral-2512",
-      "provider": "mistralai",
-      "overallScore": 77.32065217391305,
-      "speed": 867.960501,
-      "cost": 2.338378,
-      "submissionId": "2ae89d8b-228a-459b-8a8c-233e8360cfad",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 92,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 84,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 94,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 69.16666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 88,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 92,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 88.6,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 97.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 77.875,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 97.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 50,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "qwen/qwen3.5-35b-a3b",
-      "openrouterId": "qwen/qwen3.5-35b-a3b",
-      "provider": "qwen",
-      "overallScore": 75.97712529016876,
-      "speed": 702.7305980000001,
-      "cost": 0.31929199999999996,
-      "submissionId": "7842cbab-fdbb-4ae9-9d81-6825c5a502fa",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 90.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 94,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 70,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 85.71428571428571,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 84.16666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 33.33333333333333,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 95.18181818181817,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 93.9,
           "maxScore": 1
         },
         {
@@ -2124,143 +1928,17 @@
         },
         {
           "taskId": "task_18_spreadsheet_summary",
-          "score": 98.4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 75,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 94.44444444444444,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "x-ai/grok-4.1-fast",
-      "openrouterId": "x-ai/grok-4.1-fast",
-      "provider": "x-ai",
-      "overallScore": 75.45983750548969,
-      "speed": 1217.83336125,
-      "cost": 0.26463675,
-      "submissionId": "b51a23ea-99b2-4056-a521-052502be76ba",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 95.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
           "score": 98,
           "maxScore": 1
         },
         {
-          "taskId": "task_06_events",
-          "score": 67,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 74.16666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 55.00000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 78,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 94.58181818181818,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 96.6,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 89.75,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 99.2,
-          "maxScore": 1
-        },
-        {
           "taskId": "task_20_eli5_pdf_summary",
-          "score": 60,
+          "score": 72,
           "maxScore": 1
         },
         {
           "taskId": "task_21_openclaw_comprehension",
-          "score": 27.77777777777778,
+          "score": 100,
           "maxScore": 1
         },
         {
@@ -2271,13 +1949,13 @@
       ]
     },
     {
-      "model": "qwen/qwen3-max-thinking",
-      "openrouterId": "qwen/qwen3-max-thinking",
-      "provider": "qwen",
-      "overallScore": 75.01115502854631,
-      "speed": 2032.5852877500001,
-      "cost": 2.13064175,
-      "submissionId": "19e93f28-8c4a-42e7-b56f-39e4e645699f",
+      "model": "xiaomi/mimo-v2-flash",
+      "openrouterId": "xiaomi/mimo-v2-flash",
+      "provider": "openrouter",
+      "overallScore": 80.78590250329381,
+      "speed": 1598.0146876000001,
+      "cost": 0.33030879999999996,
+      "submissionId": "f7b417fc-1b98-4bd5-96d6-f328cc7511fd",
       "taskScores": [
         {
           "taskId": "task_00_sanity",
@@ -2286,7 +1964,7 @@
         },
         {
           "taskId": "task_01_calendar",
-          "score": 0,
+          "score": 100,
           "maxScore": 1
         },
         {
@@ -2296,7 +1974,7 @@
         },
         {
           "taskId": "task_03_blog",
-          "score": 93,
+          "score": 81,
           "maxScore": 1
         },
         {
@@ -2306,12 +1984,12 @@
         },
         {
           "taskId": "task_05_summary",
-          "score": 89,
+          "score": 88,
           "maxScore": 1
         },
         {
           "taskId": "task_06_events",
-          "score": 100,
+          "score": 19,
           "maxScore": 1
         },
         {
@@ -2321,7 +1999,7 @@
         },
         {
           "taskId": "task_08_memory",
-          "score": 70,
+          "score": 80,
           "maxScore": 1
         },
         {
@@ -2331,7 +2009,7 @@
         },
         {
           "taskId": "task_10_workflow",
-          "score": 41.66666666666667,
+          "score": 86.16666666666667,
           "maxScore": 1
         },
         {
@@ -2356,37 +2034,37 @@
         },
         {
           "taskId": "task_15_daily_summary",
-          "score": 95,
+          "score": 92,
           "maxScore": 1
         },
         {
           "taskId": "task_16_email_triage",
-          "score": 89.74545454545455,
+          "score": 81.30909090909091,
           "maxScore": 1
         },
         {
           "taskId": "task_17_email_search",
-          "score": 99.4,
+          "score": 94.39999999999999,
           "maxScore": 1
         },
         {
           "taskId": "task_16_market_research",
-          "score": 0,
+          "score": 95,
           "maxScore": 1
         },
         {
           "taskId": "task_18_spreadsheet_summary",
-          "score": 100,
+          "score": 95.19999999999999,
           "maxScore": 1
         },
         {
           "taskId": "task_20_eli5_pdf_summary",
-          "score": 83,
+          "score": 76,
           "maxScore": 1
         },
         {
           "taskId": "task_21_openclaw_comprehension",
-          "score": 94.44444444444444,
+          "score": 100,
           "maxScore": 1
         },
         {
@@ -2397,13 +2075,13 @@
       ]
     },
     {
-      "model": "google/gemini-3-flash-preview",
-      "openrouterId": "google/gemini-3-flash-preview",
-      "provider": "google",
-      "overallScore": 73.89855072463767,
-      "speed": 685.9188633333333,
-      "cost": 0.293406,
-      "submissionId": "9ecafeba-40a8-412d-856f-c8d31a68f0ca",
+      "model": "minimax/minimax-m2.5",
+      "openrouterId": "minimax/minimax-m2.5",
+      "provider": "openrouter",
+      "overallScore": 80.73338352468788,
+      "speed": 1286.4040582,
+      "cost": 0.184627,
+      "submissionId": "fb7151e0-43a6-405d-be5c-663ffda0c739",
       "taskScores": [
         {
           "taskId": "task_00_sanity",
@@ -2412,7 +2090,7 @@
         },
         {
           "taskId": "task_01_calendar",
-          "score": 83.33333333333334,
+          "score": 100,
           "maxScore": 1
         },
         {
@@ -2422,7 +2100,7 @@
         },
         {
           "taskId": "task_03_blog",
-          "score": 96,
+          "score": 99,
           "maxScore": 1
         },
         {
@@ -2432,143 +2110,17 @@
         },
         {
           "taskId": "task_05_summary",
-          "score": 95,
+          "score": 92,
           "maxScore": 1
         },
         {
           "taskId": "task_06_events",
-          "score": 91,
+          "score": 86,
           "maxScore": 1
         },
         {
           "taskId": "task_07_email",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
           "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 69.16666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 17.333333333333336,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 95.80000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 37.00000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 90.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 99.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 77,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "google/gemini-3-pro-preview",
-      "openrouterId": "google/gemini-3-pro-preview",
-      "provider": "google",
-      "overallScore": 70.7423740510697,
-      "speed": 1728.7824396666667,
-      "cost": 3.834353,
-      "submissionId": "21b6659a-fde6-4b53-9e9b-4f3369803c4d",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 64.28571428571429,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 93,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 91,
           "maxScore": 1
         },
         {
@@ -2578,12 +2130,12 @@
         },
         {
           "taskId": "task_09_files",
-          "score": 100,
+          "score": 85.71428571428571,
           "maxScore": 1
         },
         {
           "taskId": "task_10_workflow",
-          "score": 71.16666666666667,
+          "score": 84.16666666666667,
           "maxScore": 1
         },
         {
@@ -2598,168 +2150,42 @@
         },
         {
           "taskId": "task_13_image_gen",
-          "score": 20.416666666666668,
+          "score": 24.333333333333336,
           "maxScore": 1
         },
         {
           "taskId": "task_14_humanizer",
+          "score": 55.00000000000001,
+          "maxScore": 1
+        },
+        {
+          "taskId": "task_15_daily_summary",
           "score": 88,
           "maxScore": 1
         },
         {
-          "taskId": "task_15_daily_summary",
-          "score": 84,
-          "maxScore": 1
-        },
-        {
           "taskId": "task_16_email_triage",
-          "score": 0,
+          "score": 90.30909090909091,
           "maxScore": 1
         },
         {
           "taskId": "task_17_email_search",
-          "score": 93,
+          "score": 61,
           "maxScore": 1
         },
         {
           "taskId": "task_16_market_research",
-          "score": 92,
+          "score": 92.5,
           "maxScore": 1
         },
         {
           "taskId": "task_18_spreadsheet_summary",
-          "score": 98.4,
+          "score": 66.39999999999999,
           "maxScore": 1
         },
         {
           "taskId": "task_20_eli5_pdf_summary",
-          "score": 71.25,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 22.22222222222222,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "anthropic/claude-haiku-4.5",
-      "openrouterId": "anthropic/claude-haiku-4.5",
-      "provider": "anthropic",
-      "overallScore": 70.28190601668861,
-      "speed": 737.9286945,
-      "cost": 0.6890075,
-      "submissionId": "0d8248f6-65cc-4e55-830a-c6cfe6904ec6",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 96,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 92,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 45,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 76.66666666666666,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 55.00000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 97.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 90.67272727272729,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 98.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 90.99999999999999,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 0,
+          "score": 68,
           "maxScore": 1
         },
         {
@@ -2775,13 +2201,13 @@
       ]
     },
     {
-      "model": "deepseek/deepseek-chat",
-      "openrouterId": "deepseek/deepseek-chat",
-      "provider": "deepseek",
-      "overallScore": 69.54944005270093,
-      "speed": 824.6046176666665,
-      "cost": 0.13374433333333333,
-      "submissionId": "512a726f-8f46-40dc-98a7-0551ff264e8a",
+      "model": "qwen/qwen3.5-27b",
+      "openrouterId": "qwen/qwen3.5-27b",
+      "provider": "openrouter",
+      "overallScore": 80.62811813790074,
+      "speed": 1157.9630026666666,
+      "cost": 0.4771666666666667,
+      "submissionId": "19d2f0f8-b9fa-43c1-9522-c0171e8ba0b9",
       "taskScores": [
         {
           "taskId": "task_00_sanity",
@@ -2800,7 +2226,7 @@
         },
         {
           "taskId": "task_03_blog",
-          "score": 85,
+          "score": 98,
           "maxScore": 1
         },
         {
@@ -2810,526 +2236,22 @@
         },
         {
           "taskId": "task_05_summary",
-          "score": 93,
+          "score": 92,
           "maxScore": 1
         },
         {
           "taskId": "task_06_events",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 33.33333333333333,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 21.666666666666668,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 89,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 79,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 85.54545454545455,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 89.3,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 68.125,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 88.33333333333333,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "openai/gpt-4o-mini",
-      "openrouterId": "openai/gpt-4o-mini",
-      "provider": "openai",
-      "overallScore": 65.29345630215194,
-      "speed": 1041.9543735,
-      "cost": 0.17478074999999998,
-      "submissionId": "0a0c13a5-943a-4a9c-a615-bedaedce4437",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 96,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 78.57142857142857,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
           "score": 91,
           "maxScore": 1
         },
         {
-          "taskId": "task_06_events",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
           "taskId": "task_07_email",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 65.83333333333333,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 71.42857142857143,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 50,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 7.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 77,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 70,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 62.12727272727273,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 80.4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 89,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 40,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 55.55555555555556,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "openai/gpt-5-nano",
-      "openrouterId": "openai/gpt-5-nano",
-      "provider": "openai",
-      "overallScore": 65.27827390001303,
-      "speed": 689.75544775,
-      "cost": 0.03768675,
-      "submissionId": "e5a02dd6-7c13-4ca9-ab02-7baa2b0f973c",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 90,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 96,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 85.71428571428571,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 80.66666666666666,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 8.333333333333332,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 55.00000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 48.98601398601399,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 84.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 79.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 4.000000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "openai/gpt-4o",
-      "openrouterId": "openai/gpt-4o",
-      "provider": "openai",
-      "overallScore": 62.4590001785654,
-      "speed": 636.78229925,
-      "cost": 1.6438925,
-      "submissionId": "04c2f5ab-5b75-4fdc-8570-ee35cba3fdc2",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 89,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 78.57142857142857,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 85,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 85.71428571428571,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 33.33333333333333,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 55.00000000000001,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 65,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 72.06573426573428,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 86.6,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 72.24999999999999,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 39.46666666666667,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 22.22222222222222,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "google/gemini-2.5-flash",
-      "openrouterId": "google/gemini-2.5-flash",
-      "provider": "google",
-      "overallScore": 61.886373771156364,
-      "speed": 732.3447826666667,
-      "cost": 0.26001366666666664,
-      "submissionId": "32bbbed7-8aea-4a47-aae1-246256a746bd",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
           "score": 95,
           "maxScore": 1
         },
         {
-          "taskId": "task_04_weather",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 84,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
           "taskId": "task_08_memory",
-          "score": 80,
+          "score": 70,
           "maxScore": 1
         },
         {
@@ -3339,7 +2261,7 @@
         },
         {
           "taskId": "task_10_workflow",
-          "score": 67.33333333333333,
+          "score": 76.16666666666667,
           "maxScore": 1
         },
         {
@@ -3359,425 +2281,47 @@
         },
         {
           "taskId": "task_14_humanizer",
-          "score": 74.5,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 90,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 60.06993006993007,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 89.4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 3.75,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 96,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "qwen/qwen-2.5-7b-instruct",
-      "openrouterId": "qwen/qwen-2.5-7b-instruct",
-      "provider": "qwen",
-      "overallScore": 34.068705931749406,
-      "speed": 2089.8543015,
-      "cost": 0.0823315,
-      "submissionId": "091423b1-2b8e-4bf5-bed2-2efd9640f24d",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 66.66666666666666,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 65,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 14.285714285714285,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 49.33333333333333,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 3.75,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 10,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 38,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 65.81118881118881,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 2.4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 1,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "google/gemini-2.5-flash-lite",
-      "openrouterId": "google/gemini-2.5-flash-lite",
-      "provider": "google",
-      "overallScore": 17.2,
-      "speed": 682.9233463333334,
-      "cost": 0.032868666666666664,
-      "submissionId": "a728189f-9500-447c-b793-da0dd30379b9",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
-          "score": 69,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_15_daily_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_email_triage",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_17_email_search",
-          "score": 98.2,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_16_market_research",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_18_spreadsheet_summary",
-          "score": 28.4,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_20_eli5_pdf_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_21_openclaw_comprehension",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_22_second_brain",
-          "score": 0,
-          "maxScore": 1
-        }
-      ]
-    },
-    {
-      "model": "meta-llama/llama-3.1-70b-instruct",
-      "openrouterId": "meta-llama/llama-3.1-70b-instruct",
-      "provider": "meta-llama",
-      "overallScore": 15.646739130434781,
-      "speed": 838.905389,
-      "cost": 0.396377,
-      "submissionId": "e80dd70b-1def-4197-b069-074971c15b20",
-      "taskScores": [
-        {
-          "taskId": "task_00_sanity",
-          "score": 100,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_01_calendar",
-          "score": 83.33333333333334,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_02_stock",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_03_blog",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_04_weather",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_05_summary",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_06_events",
-          "score": 15,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_07_email",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_08_memory",
-          "score": 80,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_09_files",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_10_workflow",
-          "score": 3,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_11_clawdhub",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_12_skill_search",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_13_image_gen",
-          "score": 0,
-          "maxScore": 1
-        },
-        {
-          "taskId": "task_14_humanizer",
           "score": 0,
           "maxScore": 1
         },
         {
           "taskId": "task_15_daily_summary",
-          "score": 0,
+          "score": 94,
           "maxScore": 1
         },
         {
           "taskId": "task_16_email_triage",
-          "score": 0,
+          "score": 90.32727272727273,
           "maxScore": 1
         },
         {
           "taskId": "task_17_email_search",
-          "score": 0,
+          "score": 93.80000000000001,
           "maxScore": 1
         },
         {
           "taskId": "task_16_market_research",
-          "score": 55.375,
+          "score": 90.375,
           "maxScore": 1
         },
         {
           "taskId": "task_18_spreadsheet_summary",
-          "score": 20.666666666666668,
+          "score": 100,
           "maxScore": 1
         },
         {
           "taskId": "task_20_eli5_pdf_summary",
-          "score": 0,
+          "score": 86,
           "maxScore": 1
         },
         {
           "taskId": "task_21_openclaw_comprehension",
-          "score": 0,
+          "score": 94.44444444444444,
           "maxScore": 1
         },
         {
           "taskId": "task_22_second_brain",
-          "score": 2.5,
+          "score": 0,
           "maxScore": 1
         }
       ]

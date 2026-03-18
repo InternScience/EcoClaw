@@ -144,6 +144,15 @@ function injectModelsConfig(logger: { info: (msg: string) => void }): void {
   const expectedBaseUrl = `http://127.0.0.1:${proxyPort}/v1`;
   const providers = models.providers as Record<string, unknown>;
 
+  const LEGACY_PROVIDER_IDS = ["avengers"];
+  for (const legacyId of LEGACY_PROVIDER_IDS) {
+    if (providers[legacyId]) {
+      delete providers[legacyId];
+      logger.info(`Removed legacy provider: ${legacyId}`);
+      needsWrite = true;
+    }
+  }
+
   if (!providers.ecoclaw) {
     providers.ecoclaw = {
       baseUrl: expectedBaseUrl,
