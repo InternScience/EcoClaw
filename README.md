@@ -261,6 +261,20 @@ EcoClaw is built on our team's long-term research in LLM model routing. If you f
 [![AvengersPro](https://img.shields.io/badge/AvengersPro-⭐-blue?style=flat-square&logo=github)](https://github.com/ZhangYiqun018/AvengersPro)
 [![LLMRouterBench](https://img.shields.io/badge/LLMRouterBench-⭐-blue?style=flat-square&logo=github)](https://github.com/ynulihao/LLMRouterBench)
 
+If EcoClaw has been helpful to your work, feel free to cite it:
+
+```bibtex
+@software{li2026ecoclaw,
+  title        = {EcoClaw: Save 90\%+ on LLM Costs with One Plugin},
+  author       = {Li, Hao and Zhang, Yiqun and Hu, Shuyue},
+  year         = {2026},
+  url          = {https://github.com/InternScience/EcoClaw},
+  license      = {MIT}
+}
+```
+
+Our related research papers:
+
 ```bibtex
 @inproceedings{zhang2025avengers,
   title        = {The Avengers: A Simple Recipe for Uniting Smaller Language Models to Challenge Proprietary Giants},
